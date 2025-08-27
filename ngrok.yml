@@ -1,0 +1,6 @@
+version: '2'
+authtoken: <YOUR_API_KEY>
+tunnels:
+  web:
+    proto: http
+    addr: host.docker.internal:3000
