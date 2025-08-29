@@ -6,6 +6,4 @@ copy and past the ngrok.yml and dockerfile into your current repo and run below 
 
 docker build -t ngrok-tunnel .
 
-docker run --rm -it \
-  -v $(pwd)/ngrok.yml:/root/.ngrok2/ngrok.yml \
-  ngrok-tunnel start --all
+docker run --rm -it -v $(pwd)/ngrok.yml:/root/.ngrok2/ngrok.yml ngrok-tunnel start --all
