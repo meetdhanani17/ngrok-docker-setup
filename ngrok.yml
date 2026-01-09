@@ -4,3 +4,4 @@ tunnels:
   web:
     proto: http
     addr: host.docker.internal:3000
+    domain: shayne-osculant-maurita.ngrok-free.dev #optional for the static domain otherwise use the dynamic domain
